@@ -1,6 +1,7 @@
 # How-to-change-WPF-grid-column-alignment
 ## About the sample
-This example illustrates how to align a column content in WPF DataGrid by enabling TextAlignment and VerticalAlignment properties
+
+This example illustrates how to align a column content in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) by enabling `TextAlignment` and `VerticalAlignment` properties.
 
 ### Column alignment for manual generation
 You can change the content alignment of [GridColumn](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GridColumn.html) using [TextAlignment](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GridColumnBase~TextAlignment.html) and [VerticalAlignment](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GridColumnBase~VerticalAlignment.html) properties.
