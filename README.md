@@ -178,6 +178,7 @@ public class ColorConverter : IValueConverter
      }
  }
 ```
+ KB article - [How-to-change-WPF-grid-column-alignment](https://www.syncfusion.com/kb/10931/how-to-change-the-column-alignment-in-wpf-datagrid-sfdatagrid)
 
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
