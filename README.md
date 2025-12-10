@@ -1,6 +1,6 @@
 # How to Change the Column Alignment in WPF DataGrid?
 
-This example illustrates how to align a column content in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
+This example illustrates how to align a column content in [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid).
 
 DataGrid provides the support to change the content alignment, background color, foreground color, border and font for [GridColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridColumn.html).
 
