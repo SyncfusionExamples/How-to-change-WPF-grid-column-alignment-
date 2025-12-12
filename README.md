@@ -91,10 +91,10 @@ You can also change the content alignment of columns when they are auto generate
 this.dataGrid.AutoGeneratingColumn += DataGrid_AutoGeneratingColumn;
 
 private void DataGrid_AutoGeneratingColumn(object sender, Syncfusion.UI.Xaml.Grid.AutoGeneratingColumnArgs e)
- {
-         e.Column.TextAlignment = TextAlignment.Center;
-         e.Column.VerticalAlignment = VerticalAlignment.Center;
- }
+{
+       e.Column.TextAlignment = TextAlignment.Center;
+       e.Column.VerticalAlignment = VerticalAlignment.Center;
+}
 ```
 
 ![Modified column alignment using TextAlignment and VerticalAlignment using AutoGeneratingColumn](ModifiedColumnAlignmentUsingAutoGenerate.png)
@@ -127,13 +127,12 @@ You can customize the appearance of [GridColumn](https://help.syncfusion.com/cr/
         <syncfusion:GridTextColumn MappingName="ShipCity" 
                                    HeaderText="Ship City"/>
     </syncfusion:SfDataGrid.Columns>
- 
 </syncfusion:SfDataGrid>
 ```
 
 ![DataGrid with column styling using CellStyle in XAML](DataGridWithCellStyle.png)
 
-Take a moment to peruse the [column customization](https://help.syncfusion.com/wpf/datagrid/styles-and-templates#styling-record-cell) documentation.
+Take a moment to peruse the [style customization](https://help.syncfusion.com/wpf/datagrid/styles-and-templates#styling-record-cell) documentation.
 
 ### Conditional styling
 
@@ -186,14 +185,13 @@ public class ColorConverter : IValueConverter
 {
     public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
     {
-    int input = (int)value;
-
-    //custom condition is checked based on data.
-
-    if (input % 2 == 0)
-        return new SolidColorBrush(Colors.LightBlue);
-    else 
-        return new SolidColorBrush(Colors.Bisque);
+        int input = (int)value;
+        //custom condition is checked based on data.
+    
+        if (input % 2 == 0)
+            return new SolidColorBrush(Colors.LightBlue);
+        else 
+            return new SolidColorBrush(Colors.Bisque);
     }
  
     public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
