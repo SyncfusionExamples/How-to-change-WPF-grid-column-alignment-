@@ -8,7 +8,6 @@ DataGrid provides the support to change the content alignment, background color,
 
 You can change the column header's horizontal alignment using [HorizontalHeaderContentAlignment](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridColumnBase.html#Syncfusion_UI_Xaml_Grid_GridColumnBase_HorizontalHeaderContentAlignment) property.
 
-
 ``` xml
 <syncfusion:SfDataGrid  x:Name="dataGrid" 
                         AutoGenerateColumns="False"
@@ -40,6 +39,7 @@ You can also change the column header’s horizontal alignment when columns are 
 
 ``` csharp
 this.dataGrid.AutoGeneratingColumn += DataGrid_AutoGeneratingColumn;
+
 private void DataGrid_AutoGeneratingColumn(object sender, Syncfusion.UI.Xaml.Grid.AutoGeneratingColumnArgs e)
 {
     e.Column.HorizontalHeaderContentAlignment = HorizontalAlignment.Center;
@@ -89,6 +89,7 @@ You can also change the content alignment of columns when they are auto generate
 
 ``` xml
 this.dataGrid.AutoGeneratingColumn += DataGrid_AutoGeneratingColumn;
+
 private void DataGrid_AutoGeneratingColumn(object sender, Syncfusion.UI.Xaml.Grid.AutoGeneratingColumnArgs e)
  {
          e.Column.TextAlignment = TextAlignment.Center;
@@ -134,7 +135,7 @@ You can customize the appearance of [GridColumn](https://help.syncfusion.com/cr/
 
 Take a moment to peruse the [column customization](https://help.syncfusion.com/wpf/datagrid/styles-and-templates#styling-record-cell) documentation.
 
-Conditional styling
+### Conditional styling
 
 You can customize the appearance of the `GridColumn` conditionally based on data in three ways,
 
