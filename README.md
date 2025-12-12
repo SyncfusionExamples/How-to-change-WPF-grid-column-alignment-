@@ -248,7 +248,7 @@ public class SelectorClass : StyleSelector
 
 #### Using triggers
 
-[GridColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridColumn.html) can be customized by setting [Style.Triggers](https://learn.microsoft.com/en-us/dotnet/api/system.windows.style.triggers?view=windowsdesktop-10.0&viewFallbackFrom=net-5.0) that apply property values based on specified conditions. Multiple conditions can be specified by setting [MultiDataTrigger](https://learn.microsoft.com/en-us/dotnet/api/system.windows.multidatatrigger?view=windowsdesktop-10.0&viewFallbackFrom=net-5.0).
+[GridColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridColumn.html) can be customized by setting `Style.Triggers` that apply property values based on specified conditions. Multiple conditions can be specified by setting `MultiDataTrigger`.
 
 ``` xml
 <syncfusion:GridTextColumn MappingName="OrderID" 
