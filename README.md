@@ -276,6 +276,4 @@ public class SelectorClass : StyleSelector
 
 ![Customized the cell style using triggers](CustomizedCellStyleUsingTriggers.png)
 
-Take a moment to peruse the [user guide](https://help.syncfusion.com/wpf/datagrid/column-types) documentation to learn more about DataGrid's columns feature sets.
-
-Please refer [feature tour](https://www.syncfusion.com/wpf-controls/datagrid) link to know about the essential features of Syncfusion WPF DataGrid.
+You can refer to the [user guide](https://help.syncfusion.com/wpf/datagrid/column-types) to learn more about the DataGrid’s columns feature sets.
